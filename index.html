@@ -5,11 +5,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
+    function disableAutoPlay()
+    {
       var vid = document.getElementById("test");
       vid.autoplay = false;
+    }
     </script>
   </head>
-  <body>
+  <body onload=disableAutoPlay();>
     <div id="wrapper">
       <header>
         <a href="index.html"><img src="http://www.w3newbie.com/wp-content/uploads/boxer_logo.png"></a>
