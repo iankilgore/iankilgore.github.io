@@ -9,6 +9,7 @@
     {
       var vid = document.getElementById("test");
       vid.autoplay = false;
+      vid.load();
     }
     </script>
   </head>
@@ -54,8 +55,12 @@
       </aside>
       <section class="left-col">
         <h3>Food</h3>
-        <div class="vid">
-        <object id="test" width="560" height="315" data="http://kilgorei.pairserver.com/tech-club/HTML5.mp4"></object>
+        <div class="jkdfkak">
+          <video id="test" width="320" height="176" controls="controls">
+          <source src="http://kilgorei.pairserver.com/tech-club/HTML5.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+          </video>
+        </div>
         <p>Dogs are great.  Dogs are fun. Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.</p>
       </section>
       <footer>
