@@ -1,5 +1,5 @@
 body  {
-  background : #dad5c1;
+  background : #0055ff;
   text-align : center;
   }
 table {
@@ -23,7 +23,7 @@ img {
   margin : 0 auto;
   max-width : 980px;
   width : 96%;
-  background : #c88898;
+  background : #00aa12;
   padding : 2%;
   border-radius : 10px;
   }
@@ -34,7 +34,7 @@ header  {
   }
 nav {
   text-align : center;
-  background : #a09885;
+  background : #abcdef;
   padding : 8px;
   border-radius : 10px;
   }
@@ -95,14 +95,14 @@ nav a:hover {
   text-decoration : none;
   }
 .left-col {
-  background : #dad5c1;
+  background : #ff5500;
   width : 60%;
   float : left;
   margin-top : 2%;
   border-radius : 10px;
   }
 .sidebar {
-  background : #dad5c1;
+  background : #ff5500;
   width : 38%;
   float : right;
   margin-top : 2%;
