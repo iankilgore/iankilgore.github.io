@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ian Kilgore</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Boxer Dogs</title>
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script>
     function disableAutoPlay()
     {
@@ -12,32 +15,34 @@
       myvid.load();
     }
     </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body onload=disableAutoPlay();>
     <div id="wrapper">
       <header>
         <a href="index.html"><img src="http://www.w3newbie.com/wp-content/uploads/boxer_logo.png"></a>
-      </header>
+     </header>
       <nav>
         <ul>
-          <li class="active"><a href="#">Intro</a></li>
+          <li><a href="#">Intro</a></li>
           <li><a href="#">Size</a></li>
           <li><a href="#">Play</a></li>
           <li><a href="#">Food</a></li>
         </ul>
       </nav>
-      <aside class="sidebar">
-        <div id="social">
-        <table>
-          <tr>
-            <a href="http://www.facebook.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png"/></a>
-            <a href="http://www.twitter.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png"/></a>
-            <a href="http://www.youtube.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png"/></a>
-            <a href="http://www.plus.google.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png/"></a>
-          </tr>
-        </table>
+
+      <div class="clear"> </div>
+        <div  id="social">
+          <ul>
+            <li><a href="http://www.facebook.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png"/></a></li>
+            <li><a href="http://www.twitter.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png"/></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png"/></a></li>
+            <li><a href="http://www.plus.google.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png"/></a></li>
+          </ul>
         </div>
-      </aside>
+      
+      <div class="clear"></div>
       <section class="left-col">
         <h3>My Boxer Dog</h3>
         <img src="http://www.w3newbie.com/wp-content/uploads/boxer1.png">
@@ -56,13 +61,15 @@
       <section class="left-col">
         <h3>Food</h3>
         <div class="vid">
-          <video id="dogVideo" width="320" height="176" controls="controls">
+          <iframe width="560" height="315">
+          <video controls="controls">
           <source src="http://kilgorei.pairserver.com/tech-club/HTML5.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
           </video>
+          </iframe>
         </div>
-        <p>Dogs are great.  Dogs are fun. Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.</p>
       </section>
+      <div class="clear"></div>
       <footer>
         <h3>Boxer Dog 2016</h3>
       </footer>
